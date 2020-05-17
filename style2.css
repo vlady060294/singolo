@@ -1,0 +1,157 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+@font-face{
+    font-family: 'Lato-Black';
+    src: url('assets/fonts/Lato-Black.ttf');
+}
+
+@font-face{
+    font-family: 'Lato-Light';
+    src: url('assets/fonts/Lato-Light.ttf');
+}
+
+@font-face{
+    font-family: 'Lato-Regular';
+    src: url('assets/fonts/Lato-Regular.ttf');
+}
+
+body{
+    max-width: 1020px;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: #767e9e;
+    font-family: 'Lato-Regular';
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: 400;
+}
+
+.wrapper{
+    max-width: 940px;
+    width: 100%;
+    margin: auto;
+}
+
+
+.portfolio{
+    height: 864px;
+    background-color: #2d303a;
+    padding-top: 70px;
+}
+
+h2{
+    font-family: 'Lato-Black';
+    font-size: 30px;
+    line-height: 18px;
+    color: #666d89;
+    font-weight: 900;
+}
+
+.portfolio__p{
+    font-family: 'Lato-Light';
+    font-size: 18px;
+    line-height: 30px;
+    color: #767e9e;
+    font-weight: 300;
+    padding-top: 27px;
+}
+
+.portfolio__a{
+    padding-top: 12px;
+}
+
+.portfolio__a__element{
+    border: 1px solid #767e9e;
+    border-radius: 5px;
+    padding: 3px;
+    padding-left: 7px;
+    padding-right: 7px;
+    margin-right: 4px;
+}
+
+.images-4-colums{
+    display: flex;
+    width: 100%;
+    margin-top: 18px;
+}
+
+.images-4-colums__element{
+    width: 220px;
+    height: 187px;
+    margin-right: 20px;
+    overflow: hidden;
+}
+
+.images-4-colums__element:nth-child(4){
+    margin-right: 0;
+}
+
+.image1{
+    margin-top: -10px;
+    margin-left: -8px;
+}
+
+.image2{
+    margin-top: -42px;
+    margin-left: -82px;
+}
+
+.image3{
+    margin-top: -1px;
+    margin-left: -11px;
+}
+
+.image4{
+    margin-top: -2px;
+    margin-left: -23px;
+}
+
+.image5{
+    margin-top: -14px;
+    margin-left: -10px;
+}
+
+.image6{
+    margin-top: -2px;
+    margin-left: -15px;
+}
+
+.image7{
+    margin-top: -36px;
+    margin-left: -31px;
+}
+
+.image8{
+    margin-top: -30px;
+    margin-left: -23px;
+}
+
+.image9{
+    margin-top: 2px;
+    margin-left: -15px;
+}
+
+.image10{
+    margin-top: -110px;
+    margin-left: -140px;
+}
+
+.image11{
+    margin-top: -170px;
+    margin-left: -145px;
+}
+
+.image12{
+    margin-top: -56px;
+    margin-left: -36px;
+}
+
+.margin{
+    margin-top: 20px;
+}
