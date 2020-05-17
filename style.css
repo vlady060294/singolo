@@ -215,7 +215,7 @@ h2{
 .our-services__3-colums{
     display: flex;
     width: 100%;
-    padding-top: 34px;
+    padding-top: 42px;
 }
 
 .our-services__3-colums img{
@@ -254,4 +254,13 @@ h3{
     line-height: 22px;
     color: #767e9e;
     font-weight: 400;
+    padding-top: 10px;
+}
+
+.our-services__3-colums__img{
+    height: 70px;
+}
+
+.row2{
+    padding-top: 27px;
 }
